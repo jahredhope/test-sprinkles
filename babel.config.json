@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "@babel/preset-typescript",
+    ["@babel/preset-env", { "targets": { "node": 16 } }]
+  ],
+  "plugins": ["@vanilla-extract/babel-plugin"]
+}
